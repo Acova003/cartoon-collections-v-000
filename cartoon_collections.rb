@@ -23,7 +23,7 @@ def find_the_cheese(arr)
   #binding.pry
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arr.find{|el| cheese_types.include?(arr)
+  arr.find{|el| cheese_types.include?(arr) return el 
   if arr.include?(cheese_types)
     return intersection[0]
   else
