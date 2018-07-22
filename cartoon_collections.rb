@@ -23,7 +23,7 @@ def find_the_cheese(arr)
   #binding.pry
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arr.each do |el| 
+  arr.collect do |el| 
     if cheese_types.include?(arr) 
       return el
     else 
